@@ -1,0 +1,45 @@
+p{
+    width: 50px;
+    height: 50px;
+    background-color: #1abc9c;
+}
+
+.move-right{
+    background-color: #3498db;
+    transform: translateX(100px)
+}
+
+.move-down{
+    background-color: #f1c40f;
+    transform: translateY(10px)
+}
+
+/* p:hover{
+    transform: translate(20px, 20px)
+} */
+
+.scale{
+    border: 2px solid #2c3e50;
+    color: #ecf0f1;
+}
+
+.transformed{
+    background-color: #3498db;
+    transform: scale(2);
+    transform-origin: 0 0;
+}
+
+div{
+    border: 2px solid #2c3e50;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+    color:white;
+    font-size: 25px
+}
+
+.transformedDiv{
+    background-color: #9b59b6;
+    transform: rotate(-45deg)
+}

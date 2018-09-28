@@ -1,0 +1,38 @@
+body{
+    background-color: #fcd04b;  
+    color: white;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-weight: 300;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #fcad26;
+    font-size: 16px;
+    font-weight:300;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 6px #c5881f
+}
+
+.btn:hover{
+    box-shadow: 0 4px #c5881f;
+    top: 2px;
+}
+
+.btn:active{
+    box-shadow: none;
+    top: 6px;
+}
