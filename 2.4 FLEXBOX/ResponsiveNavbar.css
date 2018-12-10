@@ -1,0 +1,47 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2em;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    margin-left: 20px;
+    color: #95a5a6;
+    text-decoration: none;
+    border-bottom: 1px solid #52c9aa;
+    transition: all 0.5s ease-out;
+}
+
+a:hover {
+    color: #3498db;
+    border-bottom: 1px solid #3498db;
+}
+
+i {
+    margin-right: 8px;
+}
+
+
+
+@media screen and (max-width: 920px) {
+    nav {
+        justify-content: space-around;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5em;
+        background-color: #34495e;
+    }
+
+    a {
+        margin: 12px;
+        color: whitesmoke;
+    }
+}

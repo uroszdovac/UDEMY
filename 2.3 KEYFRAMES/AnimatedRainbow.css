@@ -1,0 +1,63 @@
+p{
+    animation-name: dolazim;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dolazim{
+    0%{
+        color: red;
+        font-size: 40px;
+    }
+
+    25%{
+        color: orange;
+    }
+
+    50%{
+        color: green;
+        font-size: 80px;
+        transform: translateX(100px);
+    }
+
+    75%{
+        color: blue;
+    }
+
+    100%{
+        color: red;
+        font-size: 40px;
+    }
+}
+
+.button {
+    display: inline-block;
+    border: 0;
+    background: #197278;
+    padding: 15px 30px;
+    color: white;
+    font-family: "Lato", "Arial", "Helvetica", sans-serif;
+    letter-spacing: 1.4px;
+    font-size: 18px;
+    border-radius: 6px;
+    text-shadow: 0 1px 2px #283D3B;
+    animation: jiggle 2s infinite ease-in;
+  }
+  
+  @keyframes jiggle {
+    45%, 65% {
+      transform: scale(1.0, 1.0)
+    }
+    50% {
+      transform: scale(1.1, 0.9)
+    }
+    55% {
+      transform: scale(0.9, 1.1) translate(0, -5px)
+    }
+    60% {
+      transform: scale(1.0, 1.0) translate(0, -5px)
+    }
+  }
+  

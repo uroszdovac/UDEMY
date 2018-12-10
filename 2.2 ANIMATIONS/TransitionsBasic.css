@@ -1,0 +1,76 @@
+.box {
+    background: #9b59b6;
+    height: 200px;
+    width: 200px;
+    line-height:200px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .box:hover{
+      background-color: orange;
+  } 
+
+  .animated:hover{
+      transition-property: background;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+  }
+
+  .crazy:hover{
+      border-radius: 100px;
+      background-color: orange;
+      transform: rotate(720deg) scale(0.5);
+  }
+
+  .crazy{
+      transition: transform 3s 1s,  background 1s 1s;;
+  }
+
+  .box1 {
+    background: #9b59b6;
+    height: 100px;
+    width: 100px;
+    line-height:100px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+  }
+
+  .animated1{
+      transition-property: background, border-radius, transform;
+      transition-duration: 2s , 2s, 2s;
+      transition-delay: 1s;
+  }
+
+  .box1:hover {
+    background: #e74c3c;
+    transform-origin: top left;
+    transform:scale(2);
+    border-radius: 50px;
+  }
+
+  .box2 {
+    background: #9b59b6;
+    height: 100px;
+    width: 100px;
+    line-height:100px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+  }
+
+  .box2:hover{
+      transform: translateX(300px);
+  }
+
+  .animated2{
+      /* transition: transform 2s easeOutQuint 1s; */
+      transition-property: transform;
+      transition-duration: 2s;
+      transition-timing-function: easeOutQuint;
+      transition-delay: 1s;
+  }

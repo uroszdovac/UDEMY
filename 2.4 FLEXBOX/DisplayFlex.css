@@ -1,0 +1,59 @@
+#first{
+    background-color:red;
+    
+}
+
+#second{
+    background-color:orange;
+    
+}
+
+#third{
+    background-color: gold;
+    
+}
+
+#fourth{
+    background-color: yellow;
+}
+
+#fifth{
+    background-color: greenyellow;
+}
+
+#sixth{
+    background-color: green;
+}
+
+#seventh{
+    background-color:blueviolet;
+}
+
+#eigth{
+    background-color: blue;
+}
+
+#ninth{
+    background-color: saddlebrown;
+    flex-shrink: 2;
+    }
+
+#container{
+    border: 2px solid black;
+    display: flex;
+    /* /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-end;  */
+    /* align-content: center; */
+    align-items: flex-start;
+    /* height: 500px; */
+}
+
+#container div{
+    text-align: center;
+    font-size: 2em;
+    /* display: flex;
+    align-items: center; */
+    /* flex-basis: 100px; */
+    flex-basis: 500px;
+}
